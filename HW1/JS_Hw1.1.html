@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display JavaScript Variables</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .variable {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+<h1>JavaScript Variables Output</h1>
+<div class="variable" id="greeting"></div>
+<div class="variable" id="company"></div>
+<div class="variable" id="domain"></div>
+<div class="variable" id="country"></div>
+<div class="variable" id="numberOne"></div>
+<div class="variable" id="numberTen"></div>
+<div class="variable" id="negativeNumber"></div>
+<div class="variable" id="positiveNumber"></div>
+<div class="variable" id="pi"></div>
+<div class="variable" id="eulerNumber"></div>
+<div class="variable" id="age"></div>
+<div class="variable" id="isTrue"></div>
+<div class="variable" id="isFalse"></div>
+
+<script>
+    let greeting = 'hello';
+    let company = 'owu';
+    let domain = 'com';
+    let country = 'ua';
+    let numberOne = 1;
+    let numberTen = 10;
+    let negativeNumber = -999;
+    let positiveNumber = 123;
+    let pi = 3.14;
+    let eulerNumber = 2.7;
+    let age = 16;
+    let isTrue = true;
+    let isFalse = false;
+
+    document.getElementById('greeting').innerText = `Greeting: ${greeting}`;
+    document.getElementById('company').innerText = `Company: ${company}`;
+    document.getElementById('domain').innerText = `Domain: ${domain}`;
+    document.getElementById('country').innerText = `Country: ${country}`;
+    document.getElementById('numberOne').innerText = `Number One: ${numberOne}`;
+    document.getElementById('numberTen').innerText = `Number Ten: ${numberTen}`;
+    document.getElementById('negativeNumber').innerText = `Negative Number: ${negativeNumber}`;
+    document.getElementById('positiveNumber').innerText = `Positive Number: ${positiveNumber}`;
+    document.getElementById('pi').innerText = `Pi: ${pi}`;
+    document.getElementById('eulerNumber').innerText = `Euler Number: ${eulerNumber}`;
+    document.getElementById('age').innerText = `Age: ${age}`;
+    document.getElementById('isTrue').innerText = `Is True: ${isTrue}`;
+    document.getElementById('isFalse').innerText = `Is False: ${isFalse}`;
+</script>
+</body>
+</html>
